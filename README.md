@@ -12,8 +12,8 @@ Estructura de Datos · Evaluacion C2 · Unidad 4 · 2026-20 · NRC `<NRC>` · Gr
 
 | Integrante | Usuario de GitHub | Rol | Requisitos |
 |---|---|---|---|
-|  |  | Lider (scrum) |  |
-|  |  | Dev · arbol | R1, R2 |
+|Jefferson Fabricio Suaña Mamani|  | Lider (scrum) |  |
+|Jefferson Fabricio Suaña Mamani|  | Dev · arbol | R1, R2 |
 | David Junior Sotomayor Huayhuacuri | 73440362-sys | Dev · grafo | R3, R4 |
 |  |  | Dev · alcance y archivo | R5, R6 |
 |  |  | QA y documentacion | R7, pruebas |
