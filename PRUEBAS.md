@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|
 | P01 | R1 | `registrar @kiwi` (dos veces) | La segunda vez: `E: No se pudo registrar @kiwi` |`E: No se pudo registrar @kiwi`  | ok |
 | P02 | R1 | `registrar kiwi` (sin @) | `E: No se pudo registrar kiwi` | `E: No se pudo registrar kiwi` | OK |
-| P03 | R2 | `arbol` y `usuarios` |`Preorden: @mango @byte @andes @cuy @lofi @kiwi @pixel @nova @zenit` / `Nodos: 9 \| altura: 5 \| hojas: 4` / `Usuarios (enorden): @andes @byte @cuy @kiwi @lofi @mango @nova @pixel @zenit` | `Preorden: @mango @byte @andes @cuy @lofi @kiwi @pixel @nova @zenit` / `Nodos: 9 \| altura: 5 \| hojas: 4`  |  | OK |
+| P03 | R2 | `arbol` y `usuarios` |`Preorden: @mango @byte @andes @cuy @lofi @kiwi @pixel @nova @zenit` / `Nodos: 9 \| altura: 5 \| hojas: 4` / `Usuarios (enorden): @andes @byte @cuy @kiwi @lofi @mango @nova @pixel @zenit` | `Preorden: @mango @byte @andes @cuy @lofi @kiwi @pixel @nova @zenit` / `Nodos: 9 \| altura: 5 \| hojas: 4`  |OK| OK |
 | P04 | R3 | `seguir @a @a` | `E: Una cuenta no puede seguirse a si misma` | `E: Una cuenta no puede seguirse a si misma` |OK |
 | P05 | R4 | `mutuos @zenit` y `popular` |`Mutuos de @zenit (1): @lofi` / `Popular: @mango \| seguidores: 2` | `Mutuos de @zenit (1): @lofi` / `Popular: @mango \| seguidores: 2`  |  |OK  |
 | P06 | R5 | `alcance @mango` y `llega @mango @lofi` |`Alcance de @mango: @byte @cuy @andes @pixel @nova @zenit @lofi \| alcanzados: 7` / `Un post de @mango llega a @lofi: si` | `Alcance de @mango: @byte @cuy @andes @pixel @nova @zenit @lofi \| alcanzados: 7` / `Un post de @mango llega a @lofi: si`  |  | OK |
