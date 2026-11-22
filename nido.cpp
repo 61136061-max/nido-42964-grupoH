@@ -76,34 +76,65 @@ NodoUsuario* buscar(NodoUsuario *r, string u) {
 
 bool insertar(NodoUsuario *&r, NodoUsuario *nuevo) {
     // TODO R1b
+if (r == nullptr) { r = nuevo; return true; }
+    if (nuevo->usuario == r->usuario) return false;
+    if (nuevo->usuario < r->usuario) return insertar(r->izq, nuevo);
+    return insertar(r->der, nuevo);
     return false;
 }
 
 bool registrarUsuario(NodoUsuario *&raiz, string u) {
+if (!esUsuarioValido(u) || nUsuarios == MAX || buscar(raiz, u) != nullptr)
+        return false;
+    NodoUsuario* nodo = crearUsuario(u, nUsuarios);
+    insertar(raiz, nodo);
+    porId[nUsuarios] = nodo;
+    nUsuarios++;
+    return true;
     // TODO R1c
     return false;
 }
 
 void enorden(NodoUsuario *r) {
+
     // TODO R2a
+if (r == nullptr) return;
+    enorden(r->izq);
+    cout << " " << r->usuario;
+    enorden(r->der);
 }
 
 void preorden(NodoUsuario *r) {
     // TODO R2b
+if (r == nullptr) return;
+    cout << " " << r->usuario;
+    preorden(r->izq);
+    preorden(r->der);
 }
 
 int contar(NodoUsuario *r) {
     // TODO R2c
+if (r == nullptr) return 0;
+    return 1 + contar(r->izq) + contar(r->der);
+
     return 0;
 }
 
 int altura(NodoUsuario *r) {
     // TODO R2d
+int altura(NodoUsuario* r) {
+    if (r == nullptr) return 0;
+    int a = altura(r->izq);
+    int b = altura(r->der);
+    return (a > b) ? (1 + a) : (1 + b);
     return 0;
 }
 
 int hojas(NodoUsuario *r) {
     // TODO R2e
+if (r == nullptr) return 0;
+    if (r->izq == nullptr && r->der == nullptr) return 1;
+    return hojas(r->izq) + hojas(r->der);
     return 0;
 }
 
