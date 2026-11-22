@@ -67,6 +67,10 @@ void imprimirMarcados(string titulo, bool marca[]) {
 
 NodoUsuario* buscar(NodoUsuario *r, string u) {
     // TODO R1a
+    if (r == nullptr || r->usuario == u) return r;
+    if (u < r->usuario) return buscar(r->izq, u);
+    return buscar(r->der, u);
+}
     return nullptr;
 }
 
