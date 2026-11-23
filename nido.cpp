@@ -7,7 +7,7 @@
    Semestre   : 2026-20
    Compilador : Dev-C++ (MinGW / GCC, C++11 o superior)
    NRC        :42964
-   Grupo      :E
+   Grupo      :H
    Integrantes:
    -CRISTOPHER EMANUEL LOPEZ BRAVO
    -DAVID JUNIOR SOTOMAYOR HUAYHUACURI
