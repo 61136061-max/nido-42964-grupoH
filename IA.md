@@ -1,6 +1,6 @@
 # Uso de Inteligencia Artificial — Nido (`nido-huallata`)
 
-**Declaración:** El equipo utilizó **Gemini** únicamente como herramienta de apoyo conceptual para entender el funcionamiento de las estructuras de datos y errores de compilación en C++. No se usó IA para generar ni redactar código o documentos del proyecto.
+**Declaración:** El equipo utilizó **Gemini** únicamente como herramienta de apoyo conceptual para entender el funcionamiento de las estructuras de datos y errores de compilación en C++. si se usó IA para generar ni redactar código o documentos del proyecto.
 
 | Integrante | Herramienta | Qué preguntamos | Qué aprendimos | Cómo lo comprobamos |
 | :--- | :---: | :--- | :--- | :--- |
