@@ -15,7 +15,7 @@ Estructura de Datos · Evaluacion C2 · Unidad 4 · 2026-20 · NRC `<NRC>` · Gr
 |Jefferson Fabricio Suaña Mamani|61136061-max  | Lider (scrum) |  |
 |Jefferson Fabricio Suaña Mamani|61136061-max  | Dev · arbol | R1, R2 |
 | David Junior Sotomayor Huayhuacuri | 73440362-sys | Dev · grafo | R3, R4 |
-|  |  | Dev · alcance y archivo | R5, R6 |
+| YAEL SEBASTIAN LUQUE NEGREROS |61258923-netizen  | Dev · alcance y archivo | R5, R6 |
 |  |  | QA y documentacion | R7, pruebas |
 
 Tablero del equipo: `<enlace a GitHub Projects>` · Presentacion: `<enlace>`
