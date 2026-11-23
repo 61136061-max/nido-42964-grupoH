@@ -89,15 +89,9 @@ if (r == nullptr) {
 }
 
 bool registrarUsuario(NodoUsuario *&raiz, string u) {
-if (!esUsuarioValido(u) || nUsuarios == MAX || buscar(raiz, u) != nullptr)
-        return false;
-    NodoUsuario* nodo = crearUsuario(u, nUsuarios);
-    insertar(raiz, nodo);
-    porId[nUsuarios] = nodo;
-    nUsuarios++;
-    return true;
+
     // TODO R1c
-    if (!esUsuarioValido(u)) return false;
+if (!esUsuarioValido(u)) return false;
     if (nUsuarios == MAX) return false;
     if (buscar(raiz, u) != nullptr) return false;
     NodoUsuario *nodo = crearUsuario(u, nUsuarios);
@@ -106,6 +100,7 @@ if (!esUsuarioValido(u) || nUsuarios == MAX || buscar(raiz, u) != nullptr)
     nUsuarios++;
     return true;
 }
+    
 
 void enorden(NodoUsuario *r) {
 
