@@ -1,36 +1,51 @@
-# Acuerdos del equipo
+# Acuerdos del Equipo — Nido (`nido-huallata`)
 
-Si un acuerdo cambia, se actualiza aqui **con fecha**. Nada de borrar: se tacha y se escribe el nuevo.
+- **Curso:** Estructura de Datos (24UC00428) · NRC 42964 (lunes)
+- **Grupo / Comunidad:** Grupo E · `nido-huallata`
+- **Repositorio:** `https://github.com/61136061-max/nido-42964-grupoE`
 
-## Roles y reparto
+---
 
-| Integrante | Rol | Requisitos o tareas | Revisa los PR de |
-|---|---|---|---|
-|  |  |  |  |
+## 1. Integrantes y reparto de trabajo
 
-## Como trabajamos
+| Integrante | Usuario GitHub | Rol | Lo que le toca |
+| :--- | :--- | :--- | :--- |
+| Jefferson Fabricio Suaña Mamani | `61136061-max` | Líder y Dev (Árbol) | Ordenar el tablero, juntar ramas en `main`, R1, R2 y R5 |
+| David Junior Sotomayor Huayhuacuri | `73440362-sys` | Dev (Grafo) | R3, R4, traza de la matriz a mano y revisión |
+| Yael Sebastian Luque Negreros | `yael-luque` | Dev (Persistencia) | R6, R7 y redacción del informe |
+| Cristopher Emanuel Lopez Bravo | `cristopher-lopez` | QA y Documentación | Pruebas en consola, `PRUEBAS.md`, `IA.md` y diapositivas |
 
-- Horarios de trabajo y de reunion:
-- Canal de comunicacion (WhatsApp, Discord...):
-- Tiempo maximo para responder un mensaje del equipo:
-- Las decisiones se registran en: (Issue / pull request / acta)
-- Si no estamos de acuerdo, decidimos asi:
-- Si alguien no puede cumplir una tarea, avisa con esta anticipacion:
+---
 
-## Actas de reuniones
+## 2. Cómo nos organizamos
 
-### Acta 1 · fecha: 19/11/2026 · medio: virtual (WhatsApp / Meet)
+- **Por dónde coordinamos:** Por nuestro grupo de WhatsApp para lo rápido y llamadas por Meet cuando toca avanzar juntos o revisar código.
+- **Horarios:** Nos conectamos a partir de las 8:00 p. m. para ver avances, probar el código y aprobar los Pull Requests.
+- **Uso de GitHub:** Cada uno avanza su parte en su propia rama para no pisarnos el código en `nido.cpp`. Antes de hacer merge a `main`, otro compañero revisa que compile bien.
+- **Si hay dudas o desacuerdos:** Primero probamos el código en Dev-C++ comparándolo con la traza en papel de la Ficha E. Si aún hay dos opciones, lo conversamos en llamada y votamos entre los cuatro.
+- **Para la sustentación:** Todos repasamos el árbol, la matriz y el DFS para que cualquiera pueda explicar cualquier parte si el profe pregunta.
 
-* **Asistentes:** Jefferson Fabricio Suaña Mamani, David Junior Sotomayor Huayhuacuri.
-* **Temas:** Creación del repositorio `nido-42964-grupoA`, invitación al docente, reparto de requisitos R1–R7 y configuración de la ficha del grupo.
-* **Acuerdos (que · quien · para cuando):**
-  * Configurar repositorio base, tablero Kanban e Issues R1–R7 · Jefferson Suaña · 19/11/2026.
-  * Revisar estructura del ABB y matriz de adyacencia · Todo el equipo · 20/11/2026.
+---
 
-### Acta 2 · fecha: 22/11/2026 · medio: virtual (WhatsApp / Meet)
+## 3. Actas de reuniones
 
-* **Asistentes:** Jefferson Fabricio Suaña Mamani, David Junior Sotomayor Huayhuacuri.
-* **Temas:** Integración final de requisitos R1–R7 en `codigo/nido.cpp`, ejecución de pruebas (`PRUEBAS.md`) y consolidación del informe técnico (`E3`).
-* **Acuerdos:**
-  * Validar compilación limpia y pruebas de consola (`P01` a `P08`) · David Sotomayor · 22/11/2026.
-  * Subir documentación final al repositorio y exportar el informe en PDF · Jefferson Suaña · 22/11/2026.
+### Acta 1 — Organización inicial (Jueves 19/11)
+- **Estuvimos:** Jefferson, David, Yael y Cristopher.
+- **Qué acordamos:**
+  1. Como hubo reordenamiento de grupos en el salón, nos quedamos trabajando los cuatro con la **Ficha E (`nido-huallata`)** y nos repartimos los requisitos R1 al R7.
+  2. Armamos el repo en GitHub, agregamos al profesor y creamos los Issues en el tablero.
+  3. Pegamos los datos de `nido-huallata` en `nido.cpp`, probamos que compile limpio y subimos el tag `v0.1`.
+
+### Acta 2 — Diseño en papel y avance base (Viernes 20/11)
+- **Estuvimos:** Jefferson, David, Yael y Cristopher.
+- **Qué acordamos:**
+  1. Hicimos a mano el dibujo del árbol con las 10 cuentas y la matriz de 10×10, comprobando que la orden 4 (`seguidores @pixel`) salga igual al punto de control.
+  2. Subimos y revisamos por Pull Request las funciones de R1, R2 y R3, verificando que las primeras 10 órdenes den lo mismo que nuestra traza.
+  3. Avanzamos los capítulos 1 y 2 del informe y dejamos listo el tag `v0.5`.
+
+### Acta 3 — Cierre, pruebas y entrega final (Domingo 22/11)
+- **Estuvimos:** Jefferson, David, Yael y Cristopher.
+- **Qué acordamos:**
+  1. Terminamos R4, el alcance con DFS (R5), guardar/cargar en `nido.txt` (R6) y la liberación de memoria al salir (R7).
+  2. Corrimos toda la secuencia oficial de 27 órdenes y probamos errores a propósito para llenar `PRUEBAS.md` e `IA.md`.
+  3. Cerramos el informe en PDF, terminamos las diapositivas para la exposición y dejamos el tag `v1.0` junto con el ZIP listo para subir al aula virtual.
